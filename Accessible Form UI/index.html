@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="form-container">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" aria-required="true" placeholder="Please enter name here..."/>
+        <small></small>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" aria-required="true" placeholder="Ex.: abc@gmail.com" value="john@doe.com"/>
+        <small>Email is already taken</small>
+
+        <label for="password">Password</label>
+        <div class="password-wrapper">
+            <input type="password" id="password" aria-required="true" placeholder="xxxxxxxxx"/>
+        </div>
+        <small></small>
+
+        <label for="confirm">Confirm Password</label>
+        <div class="password-wrapper">
+            <input type="password" id="confirm" aria-required="true" placeholder="xxxxxxxxx"/>
+        </div>
+        <small></small>
+
+        <button type="submit" id="btn">Update Profile</button>
+    </div>
+
+    <div class="progress-container">
+        <div id="progress-bar">
+            <span class="progress-circle" data-progress="65">65%</span>
+            <p>Profile Completeness</p>
+        </div>
+
+        <div id="checklist">
+            <p id="task1">Create Account</p>
+            <p id="task2">Update Roadmap Progress</p>
+            <p id="task3">Setup Public Profile</p>
+            <p id="task4">Complete your first project</p>
+            <p id="task5">Invite your Friends</p>
+        </div>
+    </div>
+</body>
+</html>
