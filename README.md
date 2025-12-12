@@ -6,3 +6,4 @@ description: Follow along to see my coding journey and progress!
 #3 Updated Portfolio website using CSS. The requirements for this project can be found at https://roadmap.sh/projects/portfolio-website.
 #4 Responsive Changelog. The specificaiton for this task can be found at https://roadmap.sh/projects/changelog-component.
 #5 Testimonial Cards. https://roadmap.sh/projects/testimonial-cards.
+#6 Datepicker UI. https://roadmap.sh/projects/datepicker-ui
