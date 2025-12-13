@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 5px 0;
+    padding: 2px;
+}
+
+li {
+    list-style: none;
+    margin: 2px 0;
+    padding: 5px 5px;
+}
+
+li button {
+    padding: 2px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.tab-content {
+    padding: 5px;
+}
+
+#tab1, #tab2, #tab3, #tab4 {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 8px 0;
+}
+
+form input {
+    width: 100%;
+    max-width: 250px;
+    height: 20px;
+    border: 1px solid gray;
+}
+
+fieldset {
+    border: none;
+    margin: 10px 0;
+}
+
+form textarea {
+    width: 100%;
+    max-width: 400px;
+    height: 80px;
+    border: 1px solid gray;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+form button {
+    width: 100%;
+    max-width: 200px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tab-btn {
+    color: #999;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}

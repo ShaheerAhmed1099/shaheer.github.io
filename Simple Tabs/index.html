@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tabs</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="nav-container">
+        <nav id="nav-bar">
+            <ul>
+                <li><button type="button" id="home-btn" class="tab-btn">Home</button></li>
+                <li><button type="button" id="project-btn" class="tab-btn">Projects</button></li>
+                <li><button type="button" id="article-btn" class="tab-btn">Articles</button></li>
+                <li><button type="button" id="contact-btn" class="tab-btn">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="tab-content">
+            <div id="tab1" >Hi! Welcome to my website. I am Shaheer, a banking professional and an aspiring and ambitious web developer. On this website, you will find all of my completed projects till date. Furthermore you can also find my educational background and professional experience along with my contact details.</div>
+            <div id="tab2">This tab shows all of me completed projects</div>
+            <div id="tab3">“Coding is dead”? Teaching computer programming in the age of AI</div>
+            <div id="tab4">
+               <form> 
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="Example: Shaheer..." required="">
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" placeholder="Ex. shaheerahmed1099@gmail.com" required="">
+
+                <fieldset>
+                    <legend>Comments</legend>
+                    <textarea id="comments" placeholder="Please enter your comments here..."></textarea>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+               </form>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
