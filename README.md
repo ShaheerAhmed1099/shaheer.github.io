@@ -10,3 +10,4 @@ description: Follow along to see my coding journey and progress!
 #7 Accessible Form UI. https://roadmap.sh/projects/accessible-form-ui
 #8 Image Grid Layout. https://roadmap.sh/projects/image-grid
 #9 Tooltip UI. https://roadmap.sh/projects/tooltip-ui
+#10 Simple Tabs. https://roadmap.sh/projects/simple-tabs
