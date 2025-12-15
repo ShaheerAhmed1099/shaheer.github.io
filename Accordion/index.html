@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <button type="button" class="header" aria-expanded="false" aria-controls="content1">
+                <span class="title">What is your return policy?</span>
+                <span class="icon"></span>
+            </button>
+
+            <div class="content" id="content1" role="region">
+                <div class="text">
+                    Our return policy allows returns within 30 days of purchase. Items must be unused and in orginal packaging.
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <button type="button" class="header" aria-expanded="false" aria-controls="content2">
+                <span class="title">How do I track my order?</span>
+                <span class="icon"></span>
+            </button>
+
+            <div class="content" id="content2" role="region">
+                <div class="text">
+                    Once your order ships, you'll receive a tracking number via email. You can use this number on our website to track your package.
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <button type="button" class="header" aria-expanded="false" aria-controls="content3">
+                <span class="title">Do you ship internationally?</span>
+                <span class="icon"></span>
+            </button>
+
+            <div class="content" id="content3" role="region">
+                <div class="text">
+                    Yes, we ship to most countries worldwide. International shipping times vary by location and typically take 7-14 business days.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
