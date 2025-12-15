@@ -12,3 +12,4 @@ description: Follow along to see my coding journey and progress!
 #9 Tooltip UI. https://roadmap.sh/projects/tooltip-ui
 #10 Simple Tabs. https://roadmap.sh/projects/simple-tabs
 #11 Cookie Consent. https://roadmap.sh/projects/cookie-consent
+#12 Restricted Textarea. https://roadmap.sh/projects/restricted-textarea
